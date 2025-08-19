@@ -1,0 +1,27 @@
+{
+  "name": "user-crud-api",
+  "version": "1.0.0",
+  "description": "A simple User CRUD API built with Node.js and SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "init-db": "node scripts/init-db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["user", "api", "nodejs", "sqlite", "express", "crud"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
